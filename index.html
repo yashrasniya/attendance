@@ -1,0 +1,873 @@
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>ATTENDANCE : CSE 5 Sem</title>
+</head>
+
+<div class="classInfo" id="info">
+    <input type="date" class="frInput" id="date" placeholder="date">
+    <input type="text" class="frInput" placeholder="Name of Faculty">
+    <input type="text" class="frInput" placeholder="Name of Subject">
+    <button id="sub_fac">Submit</button>
+</div>
+
+<div class="atten" id="atten">
+    <div class="row" onmouseenter="attendance(0)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name AAYUSH SHARMA</div>
+            <div class="inf">Roll 201340101001</div>
+            <div class="inf">Phone 8868960848</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(3)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name ABHAY MEWAR</div>
+            <div class="inf">Roll 201340101002</div>
+            <div class="inf">Phone 7895185813</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(6)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name ABHAY PANDEY</div>
+            <div class="inf">Roll 201340101003</div>
+            <div class="inf">Phone 7017845459</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(9)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name ABHISHEK PANDEY</div>
+            <div class="inf">Roll 201340101004</div>
+            <div class="inf">Phone None</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(12)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name ABHISHEK SINGH MIYAN</div>
+            <div class="inf">Roll 201340101005</div>
+            <div class="inf">Phone 9557163966</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(15)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name AKSHANSH CHAUHAN</div>
+            <div class="inf">Roll 201340101006</div>
+            <div class="inf">Phone 9045608962</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(18)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name AKSHAT RAWAT</div>
+            <div class="inf">Roll 201340101007</div>
+            <div class="inf">Phone 9897842542</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(21)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name AMAN KR</div>
+            <div class="inf">Roll 201340101008</div>
+            <div class="inf">Phone 7488663288</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(24)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name ANKIT RAUTHAN</div>
+            <div class="inf">Roll 201340101009</div>
+            <div class="inf">Phone 9897320816</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(27)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name ANKUR SAINI</div>
+            <div class="inf">Roll 201340101010</div>
+            <div class="inf">Phone 7417091607</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(30)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name ANSHUL GAIROLA</div>
+            <div class="inf">Roll 201340101011</div>
+            <div class="inf">Phone 9568129215</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(33)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name ANSHUL RATURI</div>
+            <div class="inf">Roll 201340101012</div>
+            <div class="inf">Phone 8191918370</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(36)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name ARYAN SINGH KUMAYA</div>
+            <div class="inf">Roll 201340101013</div>
+            <div class="inf">Phone None</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(39)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name ATUL THAPLIYAL</div>
+            <div class="inf">Roll 201340101014</div>
+            <div class="inf">Phone 9873135408</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(42)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name DIVYANSHU KHANDURI</div>
+            <div class="inf">Roll 201340101015</div>
+            <div class="inf">Phone 9650679752</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(45)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name GAURAV CHAUDHARY</div>
+            <div class="inf">Roll 201340101016</div>
+            <div class="inf">Phone 9811376857</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(48)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name GAURAV JOSHI</div>
+            <div class="inf">Roll 201340101017</div>
+            <div class="inf">Phone 8899472174</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(51)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name HARSH RANA</div>
+            <div class="inf">Roll 201340101018</div>
+            <div class="inf">Phone 7302429102</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(54)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name HARSHIT UPADHYAY</div>
+            <div class="inf">Roll 201340101019</div>
+            <div class="inf">Phone 8859832550</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(57)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name HARSHITA SANWAL</div>
+            <div class="inf">Roll 201340101020</div>
+            <div class="inf">Phone 7464887856</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(60)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name JAYDEEP UNIYAL</div>
+            <div class="inf">Roll 201340101021</div>
+            <div class="inf">Phone 9634887778</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(63)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name KAMINI GAIROLA</div>
+            <div class="inf">Roll 201340101022</div>
+            <div class="inf">Phone 9811671021</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(66)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name KARAN KISHOR KUMAR</div>
+            <div class="inf">Roll 201340101023</div>
+            <div class="inf">Phone 6397778143</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(69)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name KATIKEY UPADHYAY</div>
+            <div class="inf">Roll 201340101024</div>
+            <div class="inf">Phone 9911826265</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(72)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name KM NISHA KHATI</div>
+            <div class="inf">Roll 201340101025</div>
+            <div class="inf">Phone 7505695070</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(75)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name KM EKTA</div>
+            <div class="inf">Roll 201340101026</div>
+            <div class="inf">Phone 9719539586</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(78)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name MAHAK SHAH</div>
+            <div class="inf">Roll 201340101027</div>
+            <div class="inf">Phone 9045504649</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(81)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name MAYANK SINGH RAWAT</div>
+            <div class="inf">Roll 201340101028</div>
+            <div class="inf">Phone None</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(84)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name MOD. MOHSIN HAIDER</div>
+            <div class="inf">Roll 201340101029</div>
+            <div class="inf">Phone 7739628749</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(87)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name NEERAJ PANT</div>
+            <div class="inf">Roll 201340101030</div>
+            <div class="inf">Phone 8193824000</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(90)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name NEERAJ SINGH</div>
+            <div class="inf">Roll 201340101031</div>
+            <div class="inf">Phone 9412915828</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(93)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name PANKAJ MASHIWAL</div>
+            <div class="inf">Roll 201340101032</div>
+            <div class="inf">Phone None</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(96)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name PRATIBHA</div>
+            <div class="inf">Roll 201340101033</div>
+            <div class="inf">Phone 8273709579</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(99)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name PRIYANSHU</div>
+            <div class="inf">Roll 201340101034</div>
+            <div class="inf">Phone 9897120409</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(102)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name RAJKAMAL SINGH</div>
+            <div class="inf">Roll 201340101035</div>
+            <div class="inf">Phone 9410505042</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(105)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name SAHIL GHILDIYAL</div>
+            <div class="inf">Roll 201340101036</div>
+            <div class="inf">Phone 8979127652</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(108)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name SAHIL SINGH</div>
+            <div class="inf">Roll 201340101037</div>
+            <div class="inf">Phone 8057709082</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(111)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name SAHIL SINGH</div>
+            <div class="inf">Roll 201340101038</div>
+            <div class="inf">Phone 9119746276</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(114)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name SAMEER SINGH MAHAR</div>
+            <div class="inf">Roll 201340101039</div>
+            <div class="inf">Phone 9837923977</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(117)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name SAPNA BANGARI</div>
+            <div class="inf">Roll 201340101040</div>
+            <div class="inf">Phone 8449952292</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(120)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name SHEETAL SHARMA</div>
+            <div class="inf">Roll 201340101041</div>
+            <div class="inf">Phone 9997703540</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(123)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name SHIVANKIT AGARWAL</div>
+            <div class="inf">Roll 201340101042</div>
+            <div class="inf">Phone 7060933622</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(126)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name SHIVANSH PANDEY </div>
+            <div class="inf">Roll 201340101043</div>
+            <div class="inf">Phone 9455176770</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(129)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name SOMESH PADIYAR</div>
+            <div class="inf">Roll 201340101044</div>
+            <div class="inf">Phone 8273577330</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(132)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name SOURABH NEGI</div>
+            <div class="inf">Roll 201340101045</div>
+            <div class="inf">Phone 8534045327</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(135)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name TANUJ GAHTORI</div>
+            <div class="inf">Roll 201340101046</div>
+            <div class="inf">Phone None</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(138)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name TUSHAR CHAUHAN</div>
+            <div class="inf">Roll 201340101047</div>
+            <div class="inf">Phone None</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(141)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name YASH RASHNIYA</div>
+            <div class="inf">Roll 201340101048</div>
+            <div class="inf">Phone 9412413498</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(144)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name RITIK NEGI</div>
+            <div class="inf">Roll 201340101049</div>
+            <div class="inf">Phone 9634967275</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(147)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name arjun negi</div>
+            <div class="inf">Roll 201340101050</div>
+            <div class="inf">Phone 9412165794</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(150)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name naveen singh rawat</div>
+            <div class="inf">Roll 201340101051</div>
+            <div class="inf">Phone 6397945843</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+    <div class="row" onmouseenter="attendance(153)">
+        <div class="dp"></div>
+        <div class="info">
+            <div class="inf">Name Priyanshu Bhatt</div>
+            <div class="inf">Roll 201340101052</div>
+            <div class="inf">Phone 9639646476</div>
+            <div class="inf">Branch CSE</div>
+        </div>
+        <div class="attenInps">
+            <div class="ai">P</div>
+            <div class="ai">L</div>
+            <div class="ai">A</div>
+        </div>
+    </div>
+</div>
+<button class="upload" onclick="upload_attendance()">UPLOAD</button>
+<div class="alert" id="alert">
+    ALL Done !!
+    <div class="red">This session is over</div>
+</div>
+
+<script src="jquery.js"></script>
+
+<script>
+    const ai = document.querySelectorAll(".ai");
+    const row = document.querySelectorAll(".row");
+    const inf = document.querySelectorAll(".inf");
+
+    const inp = document.querySelectorAll(".frInput");
+
+    inp[1].value = localStorage.getItem("fa-name");
+    inp[2].value = localStorage.getItem("sb-name");
+
+    const len_ai = ai.length;
+    const len_ai_single = len_ai / 3;
+
+    const len_row = row.length;
+
+    const len_inf = inf.length;
+    const len_inf_single = len_inf / 4;
+
+    localStorage.setItem("total", (document.querySelectorAll(".ai").length) / 3);
+
+    console.log(localStorage.getItem("sb-name"));
+
+    function attendance(k) {
+        ai[k].addEventListener("click", () => {
+            ai[k].style.backgroundColor = "rgb(169, 255, 169)";
+            ai[k].value = "p";
+            ai[k + 1].style.backgroundColor = "white";
+            ai[k + 1].value = "0";
+            ai[k + 2].style.backgroundColor = "white";
+            ai[k + 2].value = "0";
+        });
+        ai[k + 1].addEventListener("click", () => {
+            ai[k].style.backgroundColor = "white";
+            ai[k].value = "0";
+            ai[k + 1].style.backgroundColor = "rgb(169, 169, 255)";
+            ai[k + 1].value = "l";
+            ai[k + 2].style.backgroundColor = "white";
+            ai[k + 2].value = "0";
+        });
+        ai[k + 2].addEventListener("click", () => {
+            ai[k].style.backgroundColor = "white";
+            ai[k].value = "0";
+            ai[k + 1].style.backgroundColor = "white";
+            ai[k + 1].value = "0";
+            ai[k + 2].style.backgroundColor = "rgb(255, 169, 169)";
+            ai[k + 2].value = "a";
+        });
+    };
+
+    function upload_attendance() {
+        const atten = document.querySelector(".atten").innerHTML;
+        const atten_data = document.querySelectorAll(".ai");
+        o = 1;
+        a = 0;
+        l = 0;
+        p = 0;
+        for (let m = 0; m < (atten_data.length); m = m + 3) {
+            if (atten_data[m].value == "p") {
+                localStorage.setItem(("roll number " + o), "Present");
+                p++;
+            }
+
+            if (atten_data[m + 1].value == "l") {
+                localStorage.setItem(("roll number " + o), "Leave");
+                l++;
+            }
+
+            if (atten_data[m + 2].value == "a") {
+                localStorage.setItem(("roll number " + o), "Apsant");
+                a++;
+            }
+
+            if (atten_data[m].value == null) {
+                document.getElementById("alert").style.display = "grid";
+                document.getElementById("alert").innerText = document.getElementById("alert").innerText + "YOU HAVE SOME MISSING ATTENDANCE of " + o;
+            }
+            o++;
+        }
+
+        localStorage.setItem("day_pr", p);
+        localStorage.setItem("day_lv", l);
+        localStorage.setItem("day_ab", a);
+        localStorage.setItem("stg", "Strength " + Math.round((p / 52) * 100) + "%");
+
+        localStorage.setItem("attendance", document.getElementById("atten").innerHTML);
+
+        row.forEach((e) => {
+            e.removeAttribute("onmouseenter");
+        })
+
+        $.ajax({
+            type: "POST",
+            url: "posting_data.php",
+            data: "dataxy=" + document.getElementById("atten").innerHTML + "&date=" + localStorage.getItem("dt") + "&fac_name=" + localStorage.getItem("fa-name") + "&sub_name=" + localStorage.getItem("sb-name") + "&percentage=" + localStorage.getItem("stg") + "&total=" + localStorage.getItem("total") + "&abs=" + localStorage.getItem("day_ab") + "&pre=" + localStorage.getItem("day_pr") + "&lev=" + localStorage.getItem("day_lv"),
+            success: function(response) {
+                document.getElementById("alert").innerHTML = response;
+            }
+        });
+    }
+
+    document.getElementById("sub_fac").addEventListener("click", () => {
+        const infos = document.querySelectorAll(".frInput");
+        if (infos[0].value == "") {
+            alert("Date Is Missing");
+        }
+
+        if (infos[1].value == "") {
+            alert("Faculty Is Missing");
+        }
+
+        if (infos[2].value == "") {
+            alert("Subject Is Missing");
+        }
+
+        if (infos[0].value != "" && infos[1].value != "" && infos[2].value != "") {
+            localStorage.setItem("dt", infos[0].value);
+            localStorage.setItem("fa-name", infos[1].value);
+            localStorage.setItem("sb-name", infos[2].value);
+            document.getElementById("info").style.display = "none";
+        }
+    });
+</script>

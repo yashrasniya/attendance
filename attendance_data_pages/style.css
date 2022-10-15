@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.data_of_card {
+    display: grid;
+    padding: 10px;
+    background-color: white;
+    width: 200px;
+    height: fit-content;
+    border: 1px solid black;
+}
+
+.date_card {
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+    font-size: larger;
+}
+
+.subject {
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+}
+
+.faculty {
+    padding: 10px;
+    background-color: rgb(215, 215, 215);
+}
+
+a {
+    padding: 10px;
+    background-color: rgb(98, 0, 255);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    background-color: rgb(131, 54, 255);
+}
+
+.attendance {
+    display: grid;
+    gap: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.total {
+    color: rgb(36, 36, 36);
+    background-color: rgb(238, 238, 238);
+    font-size: large;
+}
+
+.pre {
+    color: rgb(26, 26, 26);
+    background-color: rgb(212, 255, 148);
+}
+
+.aps {
+    color: rgb(26, 26, 26);
+    background-color: rgb(255, 195, 195);
+}
+
+.lev {
+    color: rgb(26, 26, 26);
+    background-color: rgb(217, 195, 255);
+}
